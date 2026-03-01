@@ -1,0 +1,9 @@
+# Write a program to find set of common elements in three lists using sets.
+ar1 = [1, 5, 10, 20, 40, 80]
+ar2 = [6, 7, 20, 80, 100]
+ar3 = [3, 4, 15, 20, 30, 70, 80, 120]
+
+# Convert lists to sets and find common elements
+common = set(ar1) & set(ar2) & set(ar3)
+
+print(list(common))
