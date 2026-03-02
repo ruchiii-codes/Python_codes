@@ -1,0 +1,14 @@
+# *args
+# allows us to pass a variable number of non-keyword arguments to a function.
+
+def multiply(*args):
+  product = 1
+
+  for i in args:
+    product = product * i
+
+ # print(args)
+  return product
+
+print(multiply(2,3)) # 6
+print(multiply(2,3,4)) # 24
